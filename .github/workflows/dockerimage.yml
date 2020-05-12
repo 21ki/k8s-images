@@ -11,3 +11,4 @@ jobs:
         name: cheche/kube-apiserver
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        registry: index.docker.io
