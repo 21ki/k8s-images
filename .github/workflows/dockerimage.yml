@@ -9,6 +9,7 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
         name: cheche/kube-apiserver
+        uese: ./kube-apiserver/v1.17.0.tag
         publish: true
         imageName: cheche/kube-apiserver
         platform: linux/amd64
