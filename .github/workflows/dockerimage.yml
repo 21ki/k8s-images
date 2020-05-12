@@ -1,4 +1,4 @@
-name: Build Amd64 Image
+name: dockerimage
 on:
   release:
     types: [published]
