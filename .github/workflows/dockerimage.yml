@@ -9,6 +9,10 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
         name: cheche/kube-apiserver
+        publish: true
+        imageName: cheche/kube-apiserver
+        platform: linux/amd64
+        tag: latest
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         #registry: index.docker.io
